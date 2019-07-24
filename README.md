@@ -7,7 +7,7 @@ Current implementation according according to school "42" corewar specifications
 Players are programmed using the assembler style language inspired by the <a href="http://vyznev.net/corewar/guide.html"> original redcode</a>.
 
 Usage:</br>
-1. Create program using set of instruction below. file must start with:</br>
+Create program using set of instruction below. file must start with:</br>
 *.name "player_name"*</br>
 *.comment "comments to the player"*</br>
 *\# comment can be placed anywhere and must be followed by the number sign '#'*</br>
