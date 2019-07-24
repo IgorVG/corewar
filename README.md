@@ -8,13 +8,14 @@ Current implementation according according to school "42" corewar specifications
 Players are programmed using the assembler style language inspired by the <a href="http://vyznev.net/corewar/guide.html"> original redcode</a>.</br>
 
 Usage:</br>
-Create program using set of instruction below. file must start with:</br>
-*.name "player_name"*</br>
-*.comment "comments to the player"*</br>
-*\# comment can be placed anywhere and must be followed by the number sign '#'*</br>
-*set of instructions*</br>
-
-Program file must end by .s.  
+1. Create program using set of instruction below. file must have following structure:</br>
+  *.name "player_name"*</br>
+  *.comment "comments to the player"*</br>
+  *\# comment can be placed anywhere and must be followed by the number sign '#'*</br>
+  *set of instructions*</br>
+  *file name must end with .s*
+ 2. Compile program using ./asm <filename.s>
+ 3. Execute program using ./corewar [options] <filename.cor> 
 
 ## Instruction specifications
 | instructions | op codes | arguments                | purpose                                                                                                                                                                                                                       | cycles | modify carry | pre-load opcode |
