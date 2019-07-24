@@ -11,7 +11,7 @@ Usage:</br>
 1. Create program using set of instruction below. file must have following structure:</br>
    *.name "player_name"*</br>
    *.comment "comments to the player"*</br>
-   *<Set of instructions>*</br>
+   *\<Set of instructions\>*</br>
    *Comments can be placed anywhere and must be followed by the number sign '#'*</br>
    *file name must end with .s*
  2. Compile program using ./asm <filename.s>
