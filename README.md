@@ -16,7 +16,7 @@ Create program using set of instruction below. file must start with:</br>
 Program file must end by .s.</br>
 
 
-***Assembly language instructions
+*** assembly language instructions
 
 | instructions | op codes | arguments                | purpose                                                                                                                                                                                                                       | cycles | modify carry | pre-load opcode |
 |--------------+----------+--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+--------------+-----------------|
@@ -36,15 +36,3 @@ Program file must end by .s.</br>
 | =lldi=       | =0x0e=   |                          |                                                                                                                                                                                                                               |     50 | ✗            | ✓               |
 | =lfork=      | =0x0f=   |                          |                                                                                                                                                                                                                               |   1000 | ✗            | ✓               |
 | =aff=        | =0x10=   |                          |                                                                                                                                                                                                                               |      2 | ✓            | ✓ 	           |
-
-*** compiled program bytecode specification
-
-| start address |          length | utility            |
-|---------------+-----------------+--------------------|
-| 0 =0x0000=    |               4 | magic number       |
-| 4 =0x0004=    |             128 | champion's name    |
-| 132 =0x0084=  |               4 | /unused/           |
-| 136 =0x0088=  |               4 | champion' size     |
-| 140 =0x008C=  |            2048 | champion's comment |
-| 2188 =0x088C= |               4 | /unused/           |
-| 2192 =0x0890= | champion's size | champion's code    |
