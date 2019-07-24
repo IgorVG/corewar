@@ -18,7 +18,7 @@ Program file must end by .s.</br>
 
 ### assembly language instructions
 
-| instructions | op codes | arguments                | purpose                                                                                                                                                                                                                       | cycles | modify carry | pre-load opcode |
+| instructions | op codes | arguments                | purpose  | cycles | modify carry | pre-load opcode |
 |--------------+----------+--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+--------------+-----------------|
 | =live=       | =0x01=   | player name over 4 bytes | say that the player is alive                                                                                                                                                                                                  |     10 | ✗            | ✓               |
 | =ld=         | =0x02=   | 1 address + 1 register   | load =REG_SIZE= bytes from address to register                                                                                                                                                                                |      5 | ✓            | ✓               |
