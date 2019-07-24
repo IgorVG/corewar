@@ -16,7 +16,7 @@ Create program using set of instruction below. file must start with:</br>
 Program file must end by .s.</br>
 
 
-*** assembly language instructions
+### assembly language instructions
 
 | instructions | op codes | arguments                | purpose                                                                                                                                                                                                                       | cycles | modify carry | pre-load opcode |
 |--------------+----------+--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+--------------+-----------------|
