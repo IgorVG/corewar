@@ -16,8 +16,9 @@ Create program using set of instruction below. file must start with:</br>
 
 Program file must end by .s.  
 
+## Instruction specifications
 | instructions | op codes | arguments                | purpose                                                                                                                                                                                                                       | cycles | modify carry | pre-load opcode |
-|--------------|:----------:|:--------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|--------------|-----------------|
+|--------------|:----------:|:--------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|:--------------:|:-----------------:|
 | `live`       | `0x01`   | player name over 4 bytes | say that the player is alive                                                                                                                                                                                                  |     10 | ✗            | ✓               |
 | `ld`         | `0x02`   | 1 address + 1 register   | load =REG_SIZE= bytes from address to register                                                                                                                                                                                |      5 | ✓            | ✓               |
 | `st`         | `0x03`   | 1 register + 1 address   | store =REG_SIZE= bytes from register to address                                                                                                                                                                               |      5 | ✗            | ✓               |
