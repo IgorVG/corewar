@@ -2,9 +2,9 @@
 Corewar is a codding game from 1984
 <br><img src="corewar-animation.gif" alt="corewar-animation" width="1195"/>
 
-Current implementation according according to school "42" corewar specifications. 
+Current implementation according according to school "42" corewar specifications.</br>
 
-Players are programmed using the assembler style language inspired by the <a href="http://vyznev.net/corewar/guide.html"> original redcode</a>.
+Players are programmed using the assembler style language inspired by the <a href="http://vyznev.net/corewar/guide.html"> original redcode</a>.</br>
 
 Usage:</br>
 Create program using set of instruction below. file must start with:</br>
