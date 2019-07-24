@@ -1,4 +1,4 @@
-* corewar
+# corewar
 
 Corewar is a codding game from 1984
 <br><img src="corewar-animation.gif" alt="corewar-animation" width="1195"/>
@@ -16,9 +16,9 @@ Create program using set of instruction below. file must start with:</br>
 
 Program file must end by .s.  
 
-** Virtual Machine
+## Virtual Machine
 
-*** compiled champion organisation
+### compiled champion organisation
 
 | start address |          length | utility            |
 |---------------+-----------------+--------------------|
@@ -30,7 +30,7 @@ Program file must end by .s.
 | 2188 =0x088C= |               4 | /unused/           |
 | 2192 =0x0890= | champion's size | champion's code    |
 
-*** assembly language instructions
+### assembly language instructions
 
 | instructions | op codes | arguments                | purpose                                                                                                                                                                                                                       | cycles | modify carry | pre-load opcode |
 |--------------+----------+--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+--------------+-----------------|
