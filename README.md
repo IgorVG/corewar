@@ -9,13 +9,15 @@ Players are programmed using the assembler style language inspired by the <a hre
 
 Usage:</br>
 1. Create program using set of instruction below. file must have following structure:</br>
-  *.name "player_name"*</br>
-  *.comment "comments to the player"*</br>
-  *\# comment can be placed anywhere and must be followed by the number sign '#'*</br>
-  *set of instructions*</br>
-  *file name must end with .s*
+   *.name "player_name"*</br>
+   *.comment "comments to the player"*</br>
+   *<Set of instructions>*</br>
+   *Comments can be placed anywhere and must be followed by the number sign '#'*</br>
+   *file name must end with .s*
  2. Compile program using ./asm <filename.s>
  3. Execute program using ./corewar [options] <filename.cor> 
+
+For detailed usage execute binaries without argument.
 
 ## Instruction specifications
 | instructions | op codes | arguments                | purpose                                                                                                                                                                                                                       | cycles | modify carry | pre-load opcode |
